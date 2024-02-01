@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(3, 3, 3);
+  display: grid;
+  text-align: center;
+  color: #42e9f5;
+  position: relative;
+}
+
+h1{
+    margin-top: 40px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text h2{
+    padding-left: 5px;
+    font-size: 1.6rem;
+}
+.text h2 sub{
+    font-size: .9rem;
+}
+
+.second{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    border-top: solid #42e9f5 2px ;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.link1{
+    margin-top: 50px;
+    /* margin-right: 50px; */
+}
+.link1 img {
+    /* position: absolute; */
+    align-items: center;
+    border-radius: 5%;
+    width: 400px;
+    height: 200px;
+    border: #42e9f5 solid 1px;
+}
+
+.link2{
+    margin-top: 50px;
+}
+.link2 img {
+    /* position: absolute; */
+    align-items: center;
+    width: 400px;
+    border-radius: 5%;
+    border: #42e9f5 solid 1px;
+    height: 200px;
+}
+
+
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid #42e9f5 2px ;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.link3{
+    margin-top: 50px;
+}
+.link3 img {
+    /* position: absolute; */
+    align-items: center;
+    width: 400px;
+    border: #42e9f5 solid 1px;
+    border-radius: 5%;
+ 
+    height: 200px;
+}
+
+img:hover{
+    border: #42e9f5 solid 2px;
+}
