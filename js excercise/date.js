@@ -31,6 +31,8 @@ let myDate = new Date()
 // })
 
 let newDate = new Date();
+
+// gives date in mili seconds
 let cDate = Date.now();
 console.log(cDate);
 
@@ -40,4 +42,4 @@ console.log(newDate.toTimeString());
 
 
 
-// console.log(`today's date is + ${newDate.toLocalString()}`);
+// console.log(`today's date and time are + ${newDate.toLocaleString()}`);

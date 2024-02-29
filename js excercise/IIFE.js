@@ -17,6 +17,6 @@
 
 // Normal IIFE
 
-(  (name)=>{
+( (name)=>{
     console.log(`this is from normal IIFE -> hy i am ${name}`);
 }  )("nvnt");

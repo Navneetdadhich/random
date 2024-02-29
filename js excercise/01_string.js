@@ -8,6 +8,7 @@ const repoCount = 50
 const gameName = new String('hitesh-hc-com')
 
 // console.log(gameName[0]);
+
 // console.log(gameName.__proto__);
 
 
@@ -26,10 +27,14 @@ const gameName = new String('hitesh-hc-com')
 // console.log(newStringOne);
 // console.log(newStringOne.trim());
 
+// ------------------> trim method removes the whitespace
+
 const url = "https://hitesh.com/hitesh%20choudhary"
 
-console.log(url.replace('%20', '-'))
+// console.log(url.replace('%20', '-'))
 
-console.log(url.includes('hitesh'))
+
+// include method returns boolean value
+// console.log(url.includes('hitesh'))
 
 console.log(gameName.split('-'));

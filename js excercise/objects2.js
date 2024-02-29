@@ -1,5 +1,5 @@
 
-// how to enter values in tinder
+// how to enter values in tinder object
 const tinder = {}
 
 tinder.id = 45;
@@ -46,14 +46,14 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
 
-
+// ... is called spread operator
 const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
 
 
 
-// -----------------------------------------------------------------
+// ----------------------------------------------------------------->
 
 // accessing objects with index
 
@@ -83,7 +83,7 @@ const users = [
 // console.log(Object.values(tinder));
 
 
-// entries method return all the value and keys in array form
+// entries method returns all the value and keys in array form
 // console.log(Object.entries(tinder));
 
 

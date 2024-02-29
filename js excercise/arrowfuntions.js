@@ -41,7 +41,7 @@ const user = {
 
 
 
-const chai =  () => {
+const chai = () => {
     let username = "hitesh"
     console.log(this);
 }

@@ -12,7 +12,7 @@ const Myobj = {
 
 }
 
-// we can access objects by this method but this is not a good method to practice
+// we can access objects by this method but this is not a good method to use
 console.log(Myobj.email);
 
 // this is the best praactice to access the object values
