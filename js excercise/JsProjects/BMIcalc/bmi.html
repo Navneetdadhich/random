@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calc</title>
+    <style>
+        body{
+            background-color: azure;
+            margin: 0;
+        }
+
+        .container{
+            padding-top: 150px;
+            text-align: center;
+        }
+        button{
+            margin-top: 20px;
+            font-size: 17px;
+            width: 150px;
+            height: 35px;
+            background-color: beige;
+        }
+
+        input{
+            width: 120px;
+            height: 20px;
+            background-color: rgb(250, 250, 248);
+        }
+        #results{
+            margin-top: 20px;
+        }
+
+        #result2{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body >
+    <div class="container">
+
+        <form >
+
+            <p>
+                <label >Enter Your height in CM :</label> <input type="text" id="height"/> 
+            </p>
+
+            <p>
+                <label >Enter Your weight in Kg :</label> <input type="text" id="weight"/> 
+            </p>
+
+            <button>Calculate</button>
+
+            <div id="results"></div>
+
+            <div id="result2"></div>
+
+
+        </form>
+
+    </div>
+</body>
+
+<script src="bmi.js"></script>
+</html>
