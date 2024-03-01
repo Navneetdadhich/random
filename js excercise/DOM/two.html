@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style=" background-color: black; color: aliceblue; ">
+    
+</body>
+<script>
+
+    // creating a div only with java script
+
+const mydiv = document.createElement('div')
+console.log(mydiv)
+mydiv.className = "Divv"
+mydiv.id = "007"
+mydiv.style.color = "white"
+mydiv.style.padding = "20px"
+mydiv.style.backgroundColor = "grey"
+
+// --------------------------------------------------->  creating a text inside a div
+
+// method 1
+mydiv.innerText = "  innner text h bhai ye \n "
+
+// method 2
+const text = document.createTextNode(' or ye createText node ')
+mydiv.append(text)
+
+// attaching the div file to the body tag or html tag 
+document.body.appendChild(mydiv)
+
+
+</script>
+</html>
