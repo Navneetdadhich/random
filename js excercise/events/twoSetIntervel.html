@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the async JS</h1>
+    <button id="stop">stop</button>
+    <button id="start">start</button>
+    <button id="reset">reset</button>
+</body>
+<script>
+
+    
+// let MsgFunc ;
+let count = 0;
+
+    document.querySelector('#start').addEventListener('click',function(){
+        const MsgFunc = function(){
+        console.log(count++);
+    }
+
+    const setInt = setInterval(MsgFunc, 1000);
+
+    document.querySelector('#stop').addEventListener('click',function(){
+    clearInterval(setInt);
+    });
+
+    document.querySelector('#reset').addEventListener('click',function(){
+    count=0;
+    clearInterval(setInt);
+    });
+
+    });
+
+    
+
+</script>
+</html>

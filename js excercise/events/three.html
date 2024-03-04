@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomColorGenerator</title>
+</head>
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    #canvas{
+        border-radius: 15px;
+        width: 500px;
+        box-shadow: 10px 15px 25px 0px rgba(0, 0, 0, 0.238);
+        height: 500px;
+        border: 2px solid black;
+        margin: auto;
+    }
+
+    #generate{
+        width: 100px;
+        height: 30px;
+        margin-bottom: 30px;
+    }
+
+    #add{
+        width: 100px;
+        height: 30px;
+        margin-bottom: 30px;
+    }
+</style>
+<body>
+    <h1>Random Color Generator</h1>
+    <button id="generate">Generate</button>
+    <button id="add">Add</button>
+    <p> <span id="colorBox"> </span> </p>
+    <div id="canvas">
+        <p id="code"></p>
+       
+    </div>
+</body>
+<script src="three.js"></script>
+</html>
